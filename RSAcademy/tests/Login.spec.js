@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test');
 
-test('Login pass test', async ({page}) =>
+test.only('Login pass test', async ({page}) =>
 {
     await page.goto('https://www.saucedemo.com/');
 
@@ -13,7 +13,7 @@ test('Login pass test', async ({page}) =>
    
 })
 
-test.only('Login fail test', async ({page}) =>
+test('Login fail test', async ({page}) =>
 {
     await page.goto('https://www.saucedemo.com/');
 
