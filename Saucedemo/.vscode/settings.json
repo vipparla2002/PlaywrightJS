@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.feature": "cucumber"
+  },
+  "cucumber.glue": [
+    "step-definitions/**/*.js"
+  ],
+  "cucumber.features": "features/**/*.feature"
+}
