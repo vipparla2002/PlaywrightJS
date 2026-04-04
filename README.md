@@ -13,18 +13,20 @@ The **RSA Academy** folder includes a complete end-to-end automation flow for a 
 
 This project focuses on building a straightforward automation flow to validate core user actions on a website.
 
-## 2. SauceDemo Automation Framework
+2. SauceDemo Automation Framework
 
-The **SauceDemo** folder represents a more advanced, real-world test automation framework. It is designed with scalability, readability, and maintainability in mind.
+The SauceDemo project is a more advanced, production-style automation framework built with scalability and maintainability in mind.
 
-### Key Features:
+⚙️ Key Features:
+Behavior-Driven Development (BDD) using Cucumber
+Page Object Model (POM) for clean code structure
+Modular and reusable test components
+Well-structured and readable test scenarios
+End-to-end (E2E) test coverage
+📸 Automatic screenshot capture on test run (via After hook / teardown)
+🎯 Objective:
 
-* **Behavior-Driven Development (BDD)** using Cucumber
-* **Page Object Model (POM)** for better code organization and reusability
-* Structured test cases for validating website functionality
-* Clean and modular design for easy understanding and collaboration
-
-This framework demonstrates industry-standard practices for building robust and maintainable test automation solutions.
+This framework demonstrates industry best practices for designing robust, scalable, and maintainable test automation solutions.
 
 ---
 
