@@ -10,6 +10,7 @@ Before(async function() {
 });
 
 After({ timeout: 20000 }, async function() {
+  await page.screenshot({ path: `screenshots/${Date.now()}.png`, fullPage: true });
   await page.close();
   await browser.close();
 });;
